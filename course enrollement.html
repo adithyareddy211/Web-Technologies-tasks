@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Course Enrollment</title>
+    <style>
+        label{
+            color: black;
+        }
+        fieldset{
+            margin: 10%;
+            background-color: white;
+            padding: 10px;
+        }
+        h2{
+            color: brown;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <fieldset>
+        <h2 style=background-color:rgb(209, 165, 94)>Course Enrollment Form</h2>
+        <hr>
+        <form action="">
+            <label for="sname">Student Name:</label>
+            <input type="text" id="sname" name="sname" required><br>
+            <label for="rno"> Roll Number:</label>
+            <input type="text" id="rno" name="rno" required><br>
+            <label for="email">Email Id:</label>
+            <input type="email" id="email" name="email" required><br>
+             <label for="courses">Select Courses:   </label><br>
+              <input type="checkbox" name="courses" value="JAVA">
+            <label for="courses">JAVA</label ><br>
+            
+            <input type="checkbox" name="courses" value="HTML">
+            <label for="courses">HTML</label><br>
+            <input type="checkbox" name="courses" value="PYTHON">
+            <label for="courses">PYTHON</label><br>
+            <input type="checkbox" name="courses" value="SQL">
+             <label for="courses">SQL</label><br>
+           <input type="checkbox" name="courses" value="JAVASCRIPT">
+           <label for="courses">JAVASCRIPT</label><br>
+            
+            
+            
+            <label for="mode ">Select Mode:  </label><br>
+            <input type="radio" name="mode" value="offline">
+            <label for="mode">offline</label>
+            <input type="radio" name="mode" value="online">
+            <label for="mode">online</label><br>
+            <br>
+            <input type="submit" value="submit">
+        </form>
+    </fieldset>
+</body>
+</html>

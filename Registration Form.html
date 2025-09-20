@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <style>
+        body{
+            background-color: aliceblue;
+            text-align: justify;
+            border: 3px solid rgb(red, green, blue);
+            border-radius: 10px;
+            padding: 12px;
+            margin: 10%;
+            margin-top: 5%;
+            margin-left: 30%;
+            margin-right: 40%;
+        }
+        h1{
+            text-align: center;
+            color: black;
+            background-color: rgb(47, 163, 172);
+        }
+        fieldset{
+            background-color: rgb(133, 134, 136);
+        }
+        label{
+            font-weight: bold;
+            font-size: large;
+        }
+    </style>
+</head>
+<body>
+    <h1>Student Registration Form</h1>
+    <form action="task 2.html"></form>
+    <fieldset>
+       <label for="fname">First Name:</label>
+       <input type="text" id="fname" name="fname"required><br><br>
+       <label for="lname">Last Name: </label>
+       <input type="text" id="Iname" name="Iname"required><br><br>
+       <label for="dob">Date of Birth: </label>
+    <input type="date" name="dob"><br><br>
+    <label for="gender">Gender: </label>
+    <input type="radio" id="male" name="gender" value="Male">
+    <label for="male">Male</label>
+    <input type="radio" id="female" name="gender" value="Female">
+    <label for="female">Female</label><br><br>
+    <label for="Email">Email: </label>
+    <input type="email" id="Email" name="Email" required><br><br>
+    <label for="Phone Number">Phone Number: </label>
+    <input type="number" id="Phone Number" name="Phone Number"><br><br>
+    <label for="course">Course:</label>
+            <select id="course" name="course" required>
+                <option value="Computer Science and Engineering" selected>CSE</option>
+                <option value="Cyber Security">CYBER SECURITY</option>
+                <option value="Data Science" >DATA SCIENCE</option>
+                <option value="IT">IT</option>
+                <option value="AIML">AIML</option>
+                <option value="AI-DS">AI-DS</option>
+                <option value="Devops">Devops</option>
+<option value="ECE">ECE</option>
+                <option value="EEE">EEE</option>
+                <option value="mech">Mechanical</option>
+                <option value="civil">Civil</option>
+            </select><br><br>
+    <label for="address">Address:</label><br>
+    <textarea name="address" id="address" rows="5" cols="20" required></textarea><br><br>   
+    <input  style="background-color: rgb(23, 165, 77); margin-top: 10px;" type="submit" value="Submit">
+    <input  style="background-color: rgb(231, 43, 43); margin-top: 10px;" type="reset" value="Reset">
+    </fieldset>
+</body>
+</html>
