@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bijivemula Venkata Adithya Reddy | Portfolio</title>
+    <style>
+      body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    color: #444; /* Dark gray for main text */
+    background-color: #d1ccd7; /* A very light cream background */
+}
+
+h1, h2, h3 {
+    color: #1e3a5f; /* Dark navy headings */
+}
+
+a {
+    color: #ff8c42; /* A soft orange for links */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Header and Navigation */
+header {
+    background: #fff;
+    padding: 1rem 0;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 2rem;
+}
+
+nav h1 {
+    margin: 0;
+    font-size: 1.8rem;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 2rem;
+    font-size: 1rem;
+}
+
+/* Main Content and Sections */
+main {
+    max-width: 960px;
+    margin: 2rem auto;
+    padding: 0 2rem;
+}
+
+section {
+    background: #fff;
+    padding: 2.5rem;
+    margin-bottom: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+    transition: all 0.3s ease;
+}
+ #about:hover,#skills:hover,#contact:hover,#projects:hover {
+    transform: translateY(-10px) scale(1.02);
+    box-shadow: 0 0 10px yellowgreen;
+ }
+/* About Section with Photo */
+#about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.profile-photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 1.5rem;
+    border: 4px solid #fff;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+#about p {
+    font-size: 1.1em;
+    text-align: justify;
+    max-width: 800px;
+}
+
+/* Skills Section */
+#skills ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+#skills ul li {
+    background: #e9ecef; /* Light gray for skill tags */
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    font-weight: bold;
+}
+
+/* Projects Section (List-based) */
+#projects ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#projects ul li {
+    margin-bottom: 1.5rem;
+    padding: 1rem;
+    border-left: 4px solid #ff8c42; /* Soft orange accent border */
+    background: #f8f9fa;
+    border-radius: 5px;
+}
+
+#projects h3 {
+    margin: 0 0 0.5rem 0;
+}
+
+/* Contact Section */
+.contact-links {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    font-size: 1.1em;
+    flex-wrap: wrap;
+}
+
+.contact-links a {
+    padding: 0.5rem 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.contact-links a:hover {
+    background-color: #f5f5f5;
+    text-decoration: none;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 1.5rem 0;
+    background: #1e3a5f;
+    color: #ecf0f1;
+    font-size: 0.9rem;
+}
+    </style>
+</head>
+<body>
+
+    <header>
+        <nav>
+            <h1>Bijivemula Venkata Adithya Reddy</h1>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="about">
+            <img src="https://www.students.nivambu.asia/image_attachment/get/670e057812689e20abc0de91" alt="Bijivemula Venkata Adithya Reddy" class="profile-photo">
+            <h2>About Me</h2>
+            <p>
+                Hello! I'm <strong>Bijivemula Venkata Adithya Reddy</strong>, a passionate web developer with experience in creating responsive and user-friendly websites. I enjoy coding, learning new technologies, and building projects that make a difference.
+            </p>
+        </section>
+
+        <section id="skills">
+            <h2>Skills</h2>
+            <ul>
+                <li>C</li>
+                <li>Java</li>
+                <li>Python</li>
+                 <li>HTML & CSS</li>
+                <li>JavaScript</li>
+                <li> Machine Learning</li>
+                <li>Soft Skills</li>
+            </ul>
+        </section>
+
+        <section id="projects">
+            <h2>Projects</h2>
+            <ul>
+                <li>
+         <h3>Restaurant database management system project</h3>
+        <p> A restaurant database management system enables restaurant staff to manage menu items, reservations, orders, and customers efficiently. This implementation uses  my sql </p>
+        <a href="#">View Code</a>
+</li>
+                <li>
+                    <h3>Text-Based spam dection</h3>
+                    <p>A machine learning application that predicts whether text is spam or not spam. Tech Stack: Python, Flask, HTML, Pandas</p>
+                    <a href="https://github.com/adithyareddy211/ml-project.git">View project</a>
+                    
+                </li>
+                <li>
+                    <h3>Portfolio Website</h3>
+                    <p>A responsive personal portfolio website showcasing my projects, skills, and experience with modern design and animations. <strong>Tech Stack:</strong> HTML5, CSS3, JavaScript</p>
+                    <a href="#">View Code</a>
+                </li>
+            </ul>
+        </section>
+
+        <section id="contact">
+            <h2>Contact</h2>
+            <p style="text-align: center;">Feel free to reach out to me! I'm open to discussing new opportunities and collaborations.</p>
+            <div class="contact-links">
+            <a href="mailto:adithyareddy334@gmail.com">Email Me</a>                
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Bijivemula Venkata Adithya Reddy. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
